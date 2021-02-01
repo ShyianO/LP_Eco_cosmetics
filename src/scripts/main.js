@@ -1,8 +1,8 @@
 'use strict';
 
-const burgerMenu = document.querySelector('.burger-menu');
 const navButton = document.querySelector('.header__burger-btn');
 const togglerButton = document.querySelector('.header__burger-toggler');
+const burgerMenu = document.querySelector('.burger-menu');
 const fixedBody = document.querySelector('body');
 
 navButton.addEventListener('click', () => {
